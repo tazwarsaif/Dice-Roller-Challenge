@@ -19,4 +19,12 @@ function rolling(){
     }
 }
 
+const button = document.getElementById('myButton');
+
+        // Add click event listener to the button
+        button.addEventListener('click', function() {
+            window.location.reload();
+        });
+
+
 rolling();
